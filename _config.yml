@@ -25,7 +25,7 @@ author:
   avatar: "profile.png"
   name: "Xiaodan Hu"
   pronouns: # example: "she/her"
-  bio: "Postdoctoral Researcher at TU Graz"
+  bio: "PostDoc at TU Graz"
   location: "Graz, Austria"
   employer: "TU Graz"
   uri: # URL
@@ -51,7 +51,7 @@ author:
   stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
 
   # Social media
-  bluesky: "" # Replace this with you Bluesky username
+  # bluesky: "" # Replace this with you Bluesky username
   facebook: # Username
   flickr: # Username
   foursquare: # Username

@@ -82,7 +82,6 @@ publication_category:
     title: "Books"
   manuscripts:
     title: "Journal Articles"
-    output: true
   conferences:
     title: "Conference Papers"
 
@@ -213,7 +212,7 @@ collections:
     output: false
     permalink: /:collection/:path/
   publications:
-    output: false
+    output: true
     permalink: /:collection/:path/
   portfolio:
     output: false

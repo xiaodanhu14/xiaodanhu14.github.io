@@ -18,3 +18,7 @@ My research focuses on optical see-through head-mounted displays (OST-HMDs), wit
  - 2024.05: I joined TU Graz as a postdoctoral researcher.
  - 2024.04: I started to serve as a commissioned instructor at CARE Lab.
  - 2024.03: I graduated with a Ph.D. in Engineering from NAIST.
+
+## Awards & Honors
+ - 2021.10: Selected by JST Support for Pioneering Research Initiated by the Next Generation program (SPRING) (one student per grade was selected).
+ - 2021.01: Otsuka Toshimi Scholarship.

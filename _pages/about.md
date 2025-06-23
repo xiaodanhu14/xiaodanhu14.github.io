@@ -29,5 +29,5 @@ My research focuses on **optical see-through head-mounted displays** (particular
  - Augmented Reality, TU Graz, 2024, Lecturer
 
 ## Awards & Honors
- - 2021.10: Selected by JST Support for Pioneering Research Initiated by the Next Generation program (次世代研究者挑戦的研究プログラ) (one student per grade was selected).
- - 2021.01: Otsuka Toshimi Scholarship (大塚敏美育英奨学金).
+ - 2021.10: Selected by JST [Support for Pioneering Research Initiated by the Next Generation program](https://www.jst.go.jp/jisedai/spring/en/index.html) ([次世代研究者挑戦的研究プログラム](https://www.jst.go.jp/jisedai/spring/index.html)) (one student per grade was selected).
+ - 2021.01: [Otsuka Toshimi Scholarship](https://www.otsukafoundation.org/english/) ([大塚敏美育英奨学金](https://www.otsukafoundation.org/index.html)).

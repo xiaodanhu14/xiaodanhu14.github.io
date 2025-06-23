@@ -16,7 +16,7 @@ My research focuses on optical see-through head-mounted displays (OST-HMDs), wit
 
 遮蔽機能を有する光学シースルー型ヘッドマウントディスプレイ，視覚拡張，および拡張現実における人間の視覚認知に関する研究に従事．人間の視覚特性に即した知覚的に快適なディスプレイ設計に関心を持つ．
 
-2021年9月于奈良先端科学技术大学院大学计算机科学硕士课程毕业，2024年3月取得博士学位（导师：[清川清](https://carelab.info/en/kiyoshi-kiyokawa/)）。现为奥地利格拉茨工业大学（Graz University of Technology）[Advanced Mixed Reality Interfaces Lab](https://www.tugraz.at/institute/icg/research/team-plopski)的博士后研究员（2024年5月起），同时担任奈良先端科学技术大学院大学[Cybernetics and Engineering Lab](https://carelab.info/en/)的委托教员（2024年4月起）。
+2021年9月于奈良先端科学技术大学院大学计算机科学硕士课程毕业，2024年3月取得博士学位（导师：[Kiyoshi Kiyokawa](https://carelab.info/en/kiyoshi-kiyokawa/)）。现为奥地利格拉茨工业大学（Graz University of Technology）[Advanced Mixed Reality Interfaces Lab](https://www.tugraz.at/institute/icg/research/team-plopski)的博士后研究员（2024年5月起），同时担任奈良先端科学技术大学院大学[Cybernetics and Engineering Lab](https://carelab.info/en/)的委托教员（2024年4月起）。
 
 主要从事具备遮挡能力的光学式透视头戴式显示器相关研究、视觉增强技术、以及增强现实中与人类视觉感知相关的问题。致力于基于人眼视觉特性，设计在知觉层面上更加舒适的显示设备。
 

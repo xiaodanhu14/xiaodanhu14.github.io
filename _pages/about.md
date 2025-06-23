@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About Me"
+title: "Xiaodan Hu"
 author_profile: true
 redirect_from:
   - /about/

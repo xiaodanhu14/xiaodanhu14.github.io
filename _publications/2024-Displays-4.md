@@ -7,7 +7,7 @@ permalink: publications/2024-Displays-4
 date: 2024-01-01
 venue: 'Displays'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-# paperurl: 'https://opg.optica.org/ol/fulltext.cfm?uri=ol-46-17-4208&id=458053'
+paperurl: 'http://xiaodanhu14.github.io/files/Sunglasses_Disp.pdf'
 publisherurl: 'https://www.sciencedirect.com/science/article/pii/S0141938223002457'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: '<strong>Xiaodan Hu</strong>, Yan Zhang, Hideaki Uchiyama, Naoya Isoyama, Nobuchika Sakata, and Kiyoshi Kiyokawa'

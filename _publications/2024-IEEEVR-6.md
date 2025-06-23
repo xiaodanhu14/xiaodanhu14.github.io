@@ -7,7 +7,7 @@ permalink: publications/2024-IEEEVR-6
 date: 2024-03-16
 venue: 'IEEE VR'
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-# paperurl: 'https://opg.optica.org/ol/fulltext.cfm?uri=ol-46-17-4208&id=458053'
+paperurl: 'http://xiaodanhu14.github.io/files/RetinotopicFR_IEEEVR.pdf'
 publisherurl: 'https://ieeexplore.ieee.org/abstract/document/10494106'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Yan Zhang, Keyao You, <strong>Xiaodan Hu</strong>, Hangyu Zhou, Kiyoshi Kiyokawa, and Xubo Yang'

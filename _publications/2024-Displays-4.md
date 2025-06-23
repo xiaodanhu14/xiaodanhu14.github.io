@@ -1,5 +1,5 @@
 ---
-title: "Smart dimming sunglasses for photophobia using spatial light modulator"
+title: "Smart Dimming Sunglasses for Photophobia Using Spatial Light Modulator"
 collection: publications
 category: manuscripts
 permalink: publications/2024-Displays-4

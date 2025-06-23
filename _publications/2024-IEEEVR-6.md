@@ -1,5 +1,5 @@
 ---
-title: "Retinotopic foveated rendering"
+title: "Retinotopic Foveated Rendering"
 collection: publications
 category: conferences
 permalink: publications/2024-IEEEVR-6

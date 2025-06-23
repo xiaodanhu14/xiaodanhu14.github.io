@@ -12,6 +12,10 @@ I am a postdoctoral researcher at Graz University of Technology (TU Graz) in Aus
 
 My research focuses on optical see-through head-mounted displays (OST-HMDs), with a particular emphasis on occlusion-capable systems, vision augmentation, and the role of human visual perception in augmented reality. I’m especially interested in designing display systems that align with the characteristics of the human visual system to enable perceptually optimized and comfortable visual experiences.
 
+2021年9月奈良先端科学技術大学院大学博士前期課程修了．2024年3月同博士後期課程修了．2024年5月よりオーストリア・グラーツ工科大学Advanced Mixed Reality Interfaces Labポスドク研究員．同年4月より奈良先端科学技術大学院大学サイバネティクス・リアリティ工学研究室委託教員．
+
+遮蔽機能を有する光学シースルー型ヘッドマウントディスプレイ，視覚拡張，および拡張現実における人間の視覚認知に関する研究に従事．人間の視覚特性に即した知覚的に快適な表示設計に関心を持つ．
+
 ## Latest News
  - 2025.03: I presented at IEEE VR 2025.
  - 2024.08: Our paper "Perception-Driven Soft-Edge Occlusion for Optical See-Through Head-Mounted Displays" has been accepted by TVCG.
@@ -20,5 +24,5 @@ My research focuses on optical see-through head-mounted displays (OST-HMDs), wit
  - 2024.03: I graduated with a Ph.D. in Engineering from NAIST.
 
 ## Awards & Honors
- - 2021.10: Selected by JST Support for Pioneering Research Initiated by the Next Generation program (SPRING) (one student per grade was selected).
- - 2021.01: Otsuka Toshimi Scholarship.
+ - 2021.10: Selected by JST Support for Pioneering Research Initiated by the Next Generation program (次世代研究者挑戦的研究プログラ) (one student per grade was selected).
+ - 2021.01: Otsuka Toshimi Scholarship (大塚敏美育英奨学金).

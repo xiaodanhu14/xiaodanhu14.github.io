@@ -10,13 +10,13 @@ redirect_from:
 I am a postdoctoral researcher at Graz University of Technology (TU Graz) in Austria, working in the [Advanced Mixed Reality Interfaces Lab](https://www.tugraz.at/institute/icg/research/team-plopski) led by Dr. [Alexander Plopski](https://aplopski.github.io/index.html) since May 2024. I also serve as a commissioned instructor at the [Cybernetics and Engineering Lab (CARE Lab)](https://carelab.info/en/) at the Nara Institute of Science and Technology (NAIST) in Japan since April 2024, where I received both my Ph.D. (2024) and M.Sc. (2021) degrees in Information Science under the supervision of Prof. [Kiyoshi Kiyokawa](https://carelab.info/en/kiyoshi-kiyokawa/).
 <!-- During my doctoral studies, I was awarded a fellowship from the Support for Pioneering Research Initiated by the Next Generation program (次世代研究者挑戦的研究プログラム), funded by the Japan Science and Technology Agency (JST). -->
 
-My research focuses on **optical see-through head-mounted displays (particularly occlusion-capable systems)**, **vision augmentation**, and the role of **human visual perception in augmented reality**. I am especially interested in designing display systems that align with the characteristics of the human visual system to enable perceptually optimized and comfortable visual experiences.
+My research focuses on **optical see-through head-mounted displays** (particularly **occlusion-capable systems**), **vision augmentation**, and the role of **human visual perception in AR**. I am especially interested in designing display systems that align with the characteristics of the human visual system to enable perceptually optimized and comfortable visual experiences.
 
 2021年9月奈良先端科学技術大学院大学博士前期課程修了．2024年3月同博士後期課程修了（指導教官：[清川清](https://carelab.info/ja/kiyoshi-kiyokawa/)）．2024年5月よりオーストリア・グラーツ工科大学[Advanced Mixed Reality Interfaces Lab](https://www.tugraz.at/institute/icg/research/team-plopski)ポスドク研究員．同年4月より奈良先端科学技術大学院大学[サイバネティクス・リアリティ工学研究室](https://carelab.info/)委託教員．  
-**光学シースルー型ヘッドマウントディスプレイ（特に遮蔽機能を有するシステム）**，**視覚拡張**，および**拡張現実における人間の視覚認知**に関する研究に従事．人間の視覚特性に即した知覚的に快適なディスプレイ設計に関心を持つ．
+**光学シースルー型ヘッドマウントディスプレイ**（特に**遮蔽機能**を有するシステム），**視覚拡張**，および拡張現実における**人間の視覚認知**に関する研究に従事．人間の視覚特性に即した知覚的に快適なディスプレイ設計に関心を持つ．
 
 2021年9月于奈良先端科学技术大学院大学计算机科学硕士课程毕业，2024年3月取得博士学位（导师：[Kiyoshi Kiyokawa](https://carelab.info/en/kiyoshi-kiyokawa/)）。现为奥地利格拉茨工业大学（Graz University of Technology）[Advanced Mixed Reality Interfaces Lab](https://www.tugraz.at/institute/icg/research/team-plopski)的博士后研究员（2024年5月起），同时担任奈良先端科学技术大学院大学[Cybernetics and Engineering Lab](https://carelab.info/en/)的委托教员（2024年4月起）。  
-主要从事**光学式透视头戴式显示器相关研究，特别是具备遮挡能力的设备**、**视觉增强技术**、以及**增强现实中与人类视觉感知**相关的问题。致力于基于人眼视觉特性，设计在知觉层面上更加舒适的显示设备。
+主要从事**光学式透视头戴式显示器**相关研究，特别是具备**遮挡能力**的设备、**视觉增强技术**、以及增强现实中与**人类视觉感知**相关的问题。致力于基于人眼视觉特性，设计在知觉层面上更加舒适的显示设备。
 
 ## Latest News
  - 2025.03: I presented at **IEEE VR 2025**.

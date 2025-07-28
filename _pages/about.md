@@ -18,7 +18,7 @@ My research focuses on **optical see-through head-mounted displays** (particular
 
 ## Latest News
  - 2025.07: Our paper "X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays
-with Cross-Shaped Pinholes has been accepted by **IEEE ISMAR 2025**. 
+with Cross-Shaped Pinholes" has been accepted by **IEEE ISMAR 2025**. 
  - 2025.03: I presented our TVCG paper at **IEEE VR 2025**.
  - 2024.08: Our paper "[Perception-Driven Soft-Edge Occlusion for Optical See-Through Head-Mounted Displays](https://ieeexplore.ieee.org/abstract/document/10637748)" has been accepted by **TVCG**.
  - 2024.05: I joined TU Graz as a postdoctoral researcher.

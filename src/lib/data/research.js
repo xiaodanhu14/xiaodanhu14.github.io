@@ -182,7 +182,7 @@ export const research = [
 			ieee: "https://ieeexplore.ieee.org/document/10637748",
 			preprint: "/papers/Hu_TVCG2024_SoftEdge.pdf",
 			slides: "/slides/IEEEVR-2025_Xiaodan_Slides.pdf",
-            video: "/media/videos/soft-edge-occlusion.mp4"
+            // video: "/media/videos/soft-edge-occlusion.mp4" // 视频文件太大，暂时注释
 		},
 		
         bibtexCustom: {

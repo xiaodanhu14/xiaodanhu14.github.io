@@ -19,23 +19,18 @@ jobs:
         with:
           node-version: '18'
           cache: 'npm'
-          cache-dependency-path: academic-svelte/package-lock.json
 
       - name: Install dependencies
-        run: |
-          cd academic-svelte
-          npm ci
+        run: npm ci
 
       - name: Build
-        run: |
-          cd academic-svelte
-          npm run build
+        run: npm run build
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v4
         with:
           name: build-files
-          path: academic-svelte/build/
+          path: build/
           retention-days: 1
 
   deploy:

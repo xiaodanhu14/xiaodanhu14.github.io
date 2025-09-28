@@ -1,0 +1,15 @@
+{
+	"/": [
+		"src/routes/+layout.js",
+		"src/routes/+layout.js"
+	],
+	"/projects": [
+		"src/routes/+layout.js"
+	],
+	"/projects/[slug]": [
+		"src/routes/+layout.js"
+	],
+	"/publications": [
+		"src/routes/+layout.js"
+	]
+}

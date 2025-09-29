@@ -249,6 +249,15 @@ export const research = [
 			
 		},
 		
+		bibtexCustom: {
+			journal: "Displays",
+			volume: "81",
+			pages: "102611",
+			year: "2024",
+			issn: "0141-9382",
+			doi: "https://doi.org/10.1016/j.displa.2023.102611",
+		},
+
 		// BibTeX - 自动生成，支持自定义参数
 		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
 	},

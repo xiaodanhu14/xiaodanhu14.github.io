@@ -96,12 +96,11 @@ export const research = [
 			// 详情页面内容
 			details: {
 				abstract: "Placing a transparent liquid crystal display (LCD) into the light path is a simple approach to create occlusion-capable optical see-through head-mounted displays (OST-HMDs) that suffers from defocused (soft-edge) occlusion where the mask leakage partially occludes surrounding content as well. Creating a focused (hard-edge) occlusion that does not suffer from mask leakage requires complicated, bulky optical setups. We present X-Mask, a pinhole-array-based OST-HMD that creates a sharp occlusion mask without the need for a bulky setup requiring only two transparent LCD layers. By rendering a pinhole array on the layer closer to the user's eye, our system functions as a programmable aperture layer that extends the effective depth of field and improves the sharpness of the occlusion mask rendered on the second LCD layer. Utilizing a conventional circular pinhole would result in non-uniform brightness and contrast. By changing the pinhole shape to a cross enables near-optimal retinal tiling with reduced overlaps and gaps. To accommodate pupil size variation, focus distance, and gaze direction, our system design allows for gaze-contingent adjustment of both LCD layers. We validate X-Mask in simulations and a physical prototype showing improved occlusion sharpness and visual uniformity. ",
-				// keyFeatures: [
-				// 	"Cross-shaped pinhole patterns for better edge definition",
-				// 	"Improved soft-edge occlusion capabilities",
-				// 	"Enhanced visual quality in AR displays",
-				// 	"Compatible with existing OST-HMD systems"
-				// ],
+				keyFeatures: [
+					"We propose X-Mask, a novel pinhole-array-based occlusion display to mitigate the severe defocus inherent in soft-edgeocclusion displays, maintaining a wearable form factor and large FOV.",
+					"We introduce a cross-shaped pinhole design that allows near-optimal retinal tiling with reduced gaps and overlaps,",
+					"We analyze the imaging characteristics of cross-shaped pinholes and occlusion masks, and derive optimal layout parameters that balance visual uniformity and occlusion sharpness. These design insights are implemented and validated in a physical prototype through both simulation and see-through photographs",
+				],
 				// methodology: "We designed and implemented cross-shaped pinhole patterns that provide superior edge definition compared to traditional circular pinholes. The method involves careful optimization of pinhole geometry and spacing to achieve the desired occlusion effects.",
 				// results: "Our experimental results demonstrate significant improvements in edge definition and visual quality when using cross-shaped pinholes compared to traditional circular patterns.",
 				images: [

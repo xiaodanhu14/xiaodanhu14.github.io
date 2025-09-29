@@ -118,12 +118,12 @@ export const research = [
 		},
 		
 		// BibTeX自定义参数（可选）
-		bibtexCustom: {
-			publisher: "IEEE Computer Society",
-			volume: "1",
-			pages: "1-10",
-			doi: "10.1109/ISMAR.2025.123456"
-		},
+		// bibtexCustom: {
+		// 	publisher: "IEEE Computer Society",
+		// 	volume: "1",
+		// 	pages: "1-10",
+		// 	doi: "10.1109/ISMAR.2025.123456"
+		// },
 		
 		// BibTeX - 自动生成，支持自定义参数
 		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }

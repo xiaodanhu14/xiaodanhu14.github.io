@@ -1,6 +1,7 @@
 <script>
 	import { profile } from '$lib/data/profile.js';
 	import { news } from '$lib/data/news.js';
+	import { academicService } from '$lib/data/service.js';
 </script>
 
 <svelte:head>
@@ -68,6 +69,39 @@
 	<h2>Teaching</h2>
 	<div style="padding: 0.5rem 0; border-bottom: 1px solid #f0f0f0;">
 		<strong>Augmented Reality</strong>, TU Graz, 2024, Lecturer
+	</div>
+</section>
+
+<!-- Academic Service Section -->
+<section class="section">
+	<h2>Academic Service</h2>
+	
+	<h3 class="service-subsection">Organizing Committee</h3>
+	<div class="service-list">
+		{#each academicService.organizingCommittee as item}
+			<div class="service-item">
+				<span class="service-year">{item.year}</span>
+				<div class="service-content">
+					<strong>{item.role}</strong>, {item.conference}
+				</div>
+			</div>
+		{/each}
+	</div>
+
+	<h3 class="service-subsection">Reviewer</h3>
+	<div class="service-list">
+		<div class="service-item">
+			<span class="service-year">Journals</span>
+			<div class="service-content">
+				{academicService.reviewer.journals.join(', ')}
+			</div>
+		</div>
+		<div class="service-item">
+			<span class="service-year">Conferences</span>
+			<div class="service-content">
+				{academicService.reviewer.conferences.join(', ')}
+			</div>
+		</div>
 	</div>
 </section>
 
@@ -248,6 +282,48 @@
 	}
 
 	.award-content :global(strong) {
+		color: var(--teal);
+		font-weight: 600;
+	}
+
+	/* Academic Service Section */
+	.service-subsection {
+		font-size: 1.1rem;
+		color: var(--primary-blue);
+		margin-top: 1.5rem;
+		margin-bottom: 0.8rem;
+		font-weight: 600;
+	}
+
+	.service-subsection:first-of-type {
+		margin-top: 0.5rem;
+	}
+
+	.service-list {
+		margin-bottom: 1rem;
+	}
+
+	.service-item {
+		display: flex;
+		gap: 1rem;
+		margin: 0.6rem 0;
+		padding: 0.6rem 0;
+		border-bottom: 1px solid #f0f0f0;
+	}
+
+	.service-year {
+		font-weight: 600;
+		color: var(--dark-blue);
+		min-width: 100px;
+		font-size: 0.9rem;
+	}
+
+	.service-content {
+		flex: 1;
+		font-size: 0.95rem;
+	}
+
+	.service-content strong {
 		color: var(--teal);
 		font-weight: 600;
 	}

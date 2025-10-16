@@ -1,5 +1,9 @@
 export const news = [
 	{
+		date: "2025.08",
+		content: "I was selected to serve on the <strong>International Program Committee</strong> for <strong>IEEE VR 2026</strong>."
+	},
+	{
 		date: "2025.07",
 		content: "Our paper <a href='/projects/x-mask'> X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays with Cross-Shaped Pinholes</a> has been accepted by <strong>IEEE ISMAR 2025</strong>."
 	},

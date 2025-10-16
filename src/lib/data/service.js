@@ -1,0 +1,29 @@
+export const academicService = {
+	organizingCommittee: [
+		{
+			year: "2026",
+			role: "International Program Committee",
+			conference: "IEEE VR 2026"
+		},
+		{
+			year: "2026",
+			role: "Program Committee",
+			conference: "IEEE AIxVR 2026"
+		}
+	],
+	reviewer: {
+		journals: [
+			"TVCG",
+			"Optics Letters"
+		],
+		conferences: [
+			"IEEE VR",
+			"ISMAR",
+			"VRST",
+			"ICAT-EGVE",
+			"AIxVR"
+		]
+	}
+};
+
+

@@ -113,7 +113,8 @@ export const research = [
 		links: {
             project: "/projects/x-mask",
 			// ieee: "#",
-			preprint: "/papers/ISMAR2025_X_Mask.pdf"
+			preprint: "/papers/ISMAR2025_X_Mask.pdf",
+			slides: "/slides/ISMAR_2025_Xiaodan_Slides.pdf",
 			
 		},
 		

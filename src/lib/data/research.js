@@ -76,7 +76,7 @@ export const research = [
 		title: "X-Mask: Improving Soft-Edge Occlusion in Optical See-Through Displays with Cross-Shaped Pinholes",
 		venue: "IEEE International Symposium on Mixed and Augmented Reality (ISMAR)",
 		venueFull: "Proceedings of the <strong>IEEE International Symposium on Mixed and Augmented Reality (ISMAR)</strong>",
-		status: "To appear (25.10)",
+		status: "Published",
 		
 		// 作者信息
 		authors: [
@@ -112,7 +112,7 @@ export const research = [
 		// 链接
 		links: {
             project: "/projects/x-mask",
-			// ieee: "#",
+			ieee: "https://ieeexplore.ieee.org/document/11220418",
 			preprint: "/papers/ISMAR2025_X_Mask.pdf",
 			slides: "/slides/ISMAR_2025_Xiaodan_Slides.pdf",
 			

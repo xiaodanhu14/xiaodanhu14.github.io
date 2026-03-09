@@ -32,6 +32,7 @@
 			case 'project': return 'fas fa-project-diagram';
 			case 'slides': return 'fas fa-file-powerpoint';
 			case 'video': return 'fas fa-play';
+			case 'arxiv': return 'fas fa-file-pdf';
 			default: return 'fas fa-external-link-alt';
 		}
 	}
@@ -88,6 +89,8 @@
 									Slides
 								{:else if type === 'video'}
 									Video
+								{:else if type === 'arxiv'}
+									arXiv
 								{:else}
 									{type.charAt(0).toUpperCase() + type.slice(1)}
 								{/if}

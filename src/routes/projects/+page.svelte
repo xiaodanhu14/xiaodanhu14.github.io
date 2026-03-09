@@ -53,6 +53,10 @@
 							<a href={url} class="project-link" target="_blank" rel="noopener noreferrer">
 								<i class="fas fa-external-link-alt"></i> IEEE Xplore
 							</a>
+						{:else if type === 'arxiv'}
+							<a href={url} class="project-link" target="_blank" rel="noopener noreferrer">
+								<i class="fas fa-file-pdf"></i> arXiv
+							</a>
 						{/if}
 					{/each}
 				</div>

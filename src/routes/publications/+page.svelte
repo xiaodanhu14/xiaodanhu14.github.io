@@ -31,12 +31,12 @@
 				<div class="pub-title">{pub.title}</div>
 				<div class="pub-venue">
 					<span class="venue-name">{@html pub.venueFull}
-						 {#if pub.status.includes('To appear')}
+						 {#if pub.status?.toLowerCase().includes('to appear')}
 						 {@html pub.status}
 						 {/if}
 						</span>
 					<div class="pub-links-inline">
-						{#each Object.entries(pub.links) as [type, url]}
+						{#each Object.entries(pub.links ?? {}) as [type, url]}
 							{#if type === 'conference'}
 								<a href={url} class="pub-link-inline" target="_blank" rel="noopener noreferrer">
 									Conference <i class="fas fa-external-link-alt"></i>
@@ -60,6 +60,10 @@
 							{:else if type === 'video'}
 								<a href={url} class="pub-link-inline" target="_blank" rel="noopener noreferrer">
 									Video <i class="fas fa-play"></i>
+								</a>
+							{:else if type === 'arxiv'}
+								<a href={url} class="pub-link-inline" target="_blank" rel="noopener noreferrer">
+									arXiv <i class="fas fa-file-pdf"></i>
 								</a>
 							{:else if type === 'project'}
 								<a href={url} class="pub-link-inline" target="_blank" rel="noopener noreferrer">

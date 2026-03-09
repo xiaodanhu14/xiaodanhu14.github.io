@@ -3,7 +3,7 @@ export const academicService = {
 		{
 			year: "2026",
 			role: "International Program Committee",
-			conference: "IEEE VR 2026"
+			conference: "IEEE VR 2026, IEEE ISMAR 2026"
 		},
 		{
 			year: "2026",
@@ -14,7 +14,8 @@ export const academicService = {
 	reviewer: {
 		journals: [
 			"TVCG",
-			"Optics Letters"
+			"Optics Letters",
+			"Optics Express"
 		],
 		conferences: [
 			"IEEE VR",

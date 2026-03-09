@@ -1,18 +1,26 @@
 // BibTeX自动生成函数
 function generateBibtex(item, customFields = {}) {
-	const { title, authors, venue, year, venueFull } = item;
+	const {
+		title = 'Untitled',
+		authors = [{ name: 'Unknown Author' }],
+		venue = 'Unknown Venue',
+		year = new Date().getFullYear(),
+		venueFull = venue
+	} = item || {};
 	
 	// 生成BibTeX key (第一作者姓氏 + 年份 + 标题关键词)
-	const firstAuthor = authors[0];
-	const lastName = firstAuthor.name.split(' ').pop().toLowerCase();
+	const firstAuthor = authors[0] || { name: 'Unknown Author' };
+	const firstAuthorName = firstAuthor.name || 'Unknown Author';
+	const lastName = firstAuthorName.split(' ').pop().toLowerCase();
 	const titleWords = title.split(' ').slice(0, 2).map(word => 
 		word.replace(/[^\w]/g, '').toLowerCase()
 	);
 	const bibtexKey = `${lastName}${year}${titleWords.join('')}`;
 	
 	// 生成作者列表
-	const authorList = authors.map(author => {
-		const nameParts = author.name.split(' ');
+	const authorList = (authors.length ? authors : [{ name: 'Unknown Author' }]).map(author => {
+		const safeName = author?.name || 'Unknown Author';
+		const nameParts = safeName.split(' ');
 		const lastName = nameParts.pop();
 		const firstName = nameParts.join(' ');
 		return `${lastName}, ${firstName}`;
@@ -33,7 +41,7 @@ function generateBibtex(item, customFields = {}) {
 	}
 	
 	// 清理venue名称，移除HTML标签
-	const cleanVenue = venueFull.replace(/<[^>]*>/g, '');
+	const cleanVenue = String(venueFull || venue).replace(/<[^>]*>/g, '');
 	
 	// 支持自定义类型和字段
 	const entryType = customFields.entryType || (isConference ? 'inproceedings' : 'article');
@@ -66,6 +74,103 @@ function generateBibtex(item, customFields = {}) {
 }
 
 export const research = [
+	{
+		// 基本信息
+		id: "varifocal-vac",
+		type: "project",
+		year: 2026,
+		
+		// 发表信息
+		title: "Varifocal Displays Reduce the Impact of the Vergence-Accommodation Conflict on 3D Pointing Performance in Augmented Reality Systems",
+		venue: "arXiv preprint",
+		venueFull: "<strong>arXiv preprint</strong>",
+		status: "Under Review",
+		
+		// 作者信息
+		authors: [
+			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/authors/xiaodan-hu.jpg" },
+			{ name: "Monica Perusquía-Hernández", affiliation: "NAIST", initials: "MP", photo: "/images/authors/monica-perusquia.jpg" },
+			{ name: "Mayra Donaji Barrera Machuca", affiliation: "University of Calgary", initials: "MDBM", photo: "/images/authors/mayra-barrera.png" },
+			{ name: "Anil Ufuk Batmaz", affiliation: "Concordia University", initials: "AUB", photo: "/images/authors/anil-batmaz.jpg" },
+			{ name: "Yan Zhang", affiliation: "Shanghai Jiao Tong University", initials: "YZ", photo: "/images/authors/yan-zhang.jpg" },
+			{ name: "Wolfgang Stuerzlinger", affiliation: "Simon Fraser University", initials: "WS", photo: "/images/authors/wolfgang-stuerzlinger.png" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" }
+		],
+		
+		// 项目信息
+		project: {
+			shortTitle: "Varifocal Displays for Reducing VAC in AR",
+			description: "Investigating the impact of varifocal displays on mitigating the vergence-accommodation conflict in augmented reality systems, with a focus on 3D pointing performance.",
+			thumbnail: "/images/projects/varifocal-vac.jpg",
+			tags: ["Vergence-Accommodation Conflict", "Varifocal Displays", "Augmented Reality", "3D Pointing Performance"],
+			
+			details: {
+				overview: "This project explores the effectiveness of varifocal displays in reducing the impact of the vergence-accommodation conflict (VAC) on 3D pointing performance in augmented reality (AR) systems. The VAC is a well-known issue in AR that arises when the eyes' vergence (the angle at which they converge to focus on an object) does not match the accommodation (the eye's lens adjustment for focusing), leading to visual discomfort and reduced performance. Our study involves a comprehensive evaluation of varifocal display technology, which dynamically adjusts the focal distance of virtual content based on user gaze and scene depth, aiming to alleviate the VAC and enhance user experience in AR applications.",
+				abstract: "This paper investigates whether a custom varifocal display can improve 3D pointing performance in augmented reality (AR), where the vergence-accommodation conflict (VAC) is known to impair interaction. Varifocal displays have been hypothesized to alleviate the VAC by dynamically matching the focal distance to the user’s gaze-defined target depth. Following prior work, we conducted a within-subject study with 24 participants performing an ISO 9241-411 pointing task under varifocal and fixed-focal viewing. Overall, varifocal viewing yielded significantly higher performance than the fixed-focal baseline across key interaction metrics, although the magnitude and even the direction of the benefit varied across individuals. In particular, participants' responses exhibited a baseline-dependent pattern, with smaller improvements (or occasional degradation) observed for those with better baseline performance. Our findings suggest that varifocal technology can improve AR pointing performance relative to fixed-focal viewing, while highlighting substantial individual differences that should be considered in design and evaluation.",
+				keyFeatures: [
+					"A varifocal AR display tailored for evaluating mid-air interaction: Building on insights from prior VAC studies, we constructed a stereo AR varifocal display based on a validated design and optimized it for virtual hand pointing.",
+                    "A study of interaction with an AR varifocal display: We compare fixed-focal and varifocal modes and report performance outcomes across two study iterations, including a revised ergonomic setup to reduce potential performance constraints of the prototype. Results reveal interaction performance patterns consistent with VAC mitigation under varifocal viewing.",
+                    "Baseline-dependent effects of varifocal viewing: We observe that participants with better baseline performance under the fixed-focal condition tend to show smaller improvements under varifocal viewing, and in some cases even degraded performance. Other participants exhibited larger improvements in the varifocal condition."
+				],
+				images: [
+					{ src: "/images/projects/varifocal-vac1.jpg", alt: "Varifocal display demo", caption: "Participant conducting a 3D pointing task with the varifocal display" }
+				]
+			}
+		},
+		
+		// 链接
+		links: {
+            project: "/projects/varifocal-vac",
+			arxiv: "https://arxiv.org/abs/2602.05129",
+			// preprint: "/papers/Hu_Displays2024_SmartDimming.pdf",
+			
+		},
+		
+		bibtexCustom: {
+			journal: "arXiv preprint",
+		// 	volume: "81",
+		// 	pages: "102611",
+			year: "2026",
+			rchivePrefix: "arXiv",
+			url: "https://arxiv.org/abs/2602.05129",
+			publisher: "arXiv"
+		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
+	},
+
+	{
+		// 基本信息
+		id: "mask-balancing",
+		type: "publication", // "project" 或 "publication"
+		year: 2026,
+		
+		// 发表信息
+		title: "Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays",
+		venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
+		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong>",
+		status: "To Appear",
+		
+		// 作者信息
+		authors: [
+			{ name: "Yan Zhang", affiliation: "Shanghai Jiao Tong University", initials: "YZ", photo: "/images/authors/yan-zhang.jpg" },
+			{ name: "Rundong Chu", affiliation: "Shanghai Jiao Tong University", initials: "RDC"},
+			{ name: "Qingtai Dong", affiliation: "Shanghai Jiao Tong University", initials: "QTD"},
+			{ name: "Xiaodan Hu", affiliation: "TU Graz", initials: "XH", photo: "/images/profile/xiaodan-hu.jpg" },
+			{ name: "Keyao You", affiliation: "Shanghai Jiao Tong University", initials: "KYY" },
+			{ name: "Zijie Zhou", affiliation: "Shanghai Jiao Tong University", initials: "ZJZ" },
+			{ name: "Zixuan Guo", affiliation: "Shanghai Jiao Tong University", initials: "ZXG" },
+			{ name: "Hangyu Zhou", affiliation: "Zhejiang University of Science and Technology", initials: "HYZ" },
+			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" },
+			{ name: "Xubo Yang", affiliation: "Shanghai Jiao Tong University", initials: "XBY" }
+		],
+
+		links: {
+			preprint: "/papers/Zhang_IEEE_VR_2026_TVCG_MaskBalancing.pdf"
+		},
+	},
+
 	{
 		// 基本信息
 		id: "x-mask",
@@ -119,12 +224,10 @@ export const research = [
 		},
 		
 		// BibTeX自定义参数（可选）
-		// bibtexCustom: {
-		// 	publisher: "IEEE Computer Society",
-		// 	volume: "1",
-		// 	pages: "1-10",
-		// 	doi: "10.1109/ISMAR.2025.123456"
-		// },
+		bibtexCustom: {
+			pages: "677-686",
+			doi: "10.1109/ISMAR67309.2025.00077"
+		},
 		
 		// BibTeX - 自动生成，支持自定义参数
 		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
@@ -158,7 +261,7 @@ export const research = [
 		project: {
 			shortTitle: "Perception-Driven Soft-Edge Occlusion",
 			thumbnail: "/images/projects/soft-edge-demo.png",
-			tags: ["Occlusion Display", "Soft-Edge Occlusion", "Human Visual Perception", "TVCG 2024"],
+			tags: ["Occlusion Display", "Soft-Edge Occlusion", "Human Visual Perception", "TVCG"],
 			
 			details: {
 				// overview: "A perception-driven approach to soft-edge occlusion in optical see-through head-mounted displays, validated through psychophysical experiments.",

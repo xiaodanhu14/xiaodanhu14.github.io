@@ -1,7 +1,20 @@
 export const news = [
+	
+	{
+		date: "2026.02",
+		content: "I was invited to serve on the <strong>International Program Committee</strong> for <strong>IEEE ISMAR 2026</strong>."
+	},
+	{
+		date: "2026.01",
+		content: "Our paper <strong>Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays</strong> has been accepted by <strong>TVCG</strong>."
+	},
+	{
+		date: "2025.12",
+		content: "I will assume the position of Assistant Professor at <a href='https://www.shibaura-it.ac.jp/en/'>Shibaura Institute of Technology, Japan</a>, starting from April 2026."
+	},
 	{
 		date: "2025.08",
-		content: "I was selected to serve on the <strong>International Program Committee</strong> for <strong>IEEE VR 2026</strong>."
+		content: "I was invited to serve on the <strong>International Program Committee</strong> for <strong>IEEE VR 2026</strong>."
 	},
 	{
 		date: "2025.07",

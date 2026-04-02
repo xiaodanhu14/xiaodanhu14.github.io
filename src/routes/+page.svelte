@@ -25,7 +25,7 @@
 		</div>
 		<div class="contact-item">
 			<i class="fas fa-envelope"></i>
-			<a href="mailto:xiaodan.hu[at]tugraz.at" class="contact-link">Email</a>
+			<a href={`mailto:${profile.email.replace('[at]', '@')}`} class="contact-link">Email</a>
 		</div>
 		<div class="contact-item">
 			<i class="ai ai-google-scholar"></i>

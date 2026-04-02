@@ -1,16 +1,16 @@
 export const news = [
 	
 	{
+		date: "2026.04",
+		content: "I started my position as Assistant Professor at <a href='https://www.shibaura-it.ac.jp/en/'>Shibaura Institute of Technology, Japan</a>, where I lead the <strong>Augmented Imaging and Displays (AID) Lab</strong>."
+	},
+	{
 		date: "2026.02",
 		content: "I was invited to serve on the <strong>International Program Committee</strong> for <strong>IEEE ISMAR 2026</strong>."
 	},
 	{
 		date: "2026.01",
 		content: "Our paper <strong>Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays</strong> has been accepted by <strong>TVCG</strong>."
-	},
-	{
-		date: "2025.12",
-		content: "I will assume the position of Assistant Professor at <a href='https://www.shibaura-it.ac.jp/en/'>Shibaura Institute of Technology, Japan</a>, starting from April 2026."
 	},
 	{
 		date: "2025.08",

@@ -10,7 +10,7 @@ export const news = [
 	},
 	{
 		date: "2026.01",
-		content: "Our paper <strong>Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays</strong> has been accepted by <strong>TVCG</strong>."
+		content: "Our paper <a href='/projects/mask-balancing'><strong>Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays</strong></a> has been published in <strong>TVCG</strong>."
 	},
 	{
 		date: "2025.08",

@@ -143,14 +143,14 @@ export const research = [
 	{
 		// 基本信息
 		id: "mask-balancing",
-		type: "publication", // "project" 或 "publication"
+		type: "project", // "project" 或 "publication"
 		year: 2026,
 		
 		// 发表信息
 		title: "Mask Balancing: Perception-Driven Dynamic Visibility Enhancement for Occlusion-Capable Optical See-Through Head-Mounted Displays",
 		venue: "IEEE Transactions on Visualization and Computer Graphics (TVCG)",
 		venueFull: "<strong>IEEE Transactions on Visualization and Computer Graphics (TVCG)</strong>",
-		status: "To Appear",
+		status: "Published",
 		
 		// 作者信息
 		authors: [
@@ -163,12 +163,36 @@ export const research = [
 			{ name: "Zixuan Guo", affiliation: "Shanghai Jiao Tong University", initials: "ZXG" },
 			{ name: "Hangyu Zhou", affiliation: "Zhejiang University of Science and Technology", initials: "HYZ" },
 			{ name: "Kiyoshi Kiyokawa", affiliation: "NAIST", initials: "KK", photo: "/images/authors/kiyoshi-kiyokawa.jpg" },
-			{ name: "Xubo Yang", affiliation: "Shanghai Jiao Tong University", initials: "XBY" }
+			{ name: "Xubo Yang", affiliation: "Shanghai Jiao Tong University", initials: "XBY", photo: "/images/authors/xubo-yang.jpg" }
 		],
 
+		// 项目信息
+		project: {
+			shortTitle: "Mask Balancing",
+			thumbnail: "/images/projects/mask-balancing.png",
+			tags: ["Occlusion Display", "Visibility Enhancement", "Human Visual Perception", "TVCG"],
+
+			details: {
+				abstract: "The poor transparency of occlusion-capable optical see-through head-mounted displays (OC-OSTHMDs) deteriorates the visibility of the real scene, hindering the practical application of the devices. Previous works mitigate the issue by upgrading the transmittance of the spatial light modulator (SLM). However, the strategy soon reaches a limit because further optimization requires improving the transmittance of all optical elements, e.g., lenses and beam splitters. Moreover, pixelated occlusion usually relies on polarizing the real scene light, inevitably cutting the input optical power by half. To overcome this limitation, we propose a mask balancing method that improves real-scene brightness through polarization blending. Specifically, the s-polarized component, which passes through the optical system to provide occlusion-capable vision, is blended with the p-polarized component, which bypasses the system to preserve the raw view of the real scene. The blending is realized by simply modulating the cross-angle between a polarizing beam splitter and a linear polarizer, benefiting the robustness and versatility of the proposed method. We introduce a perception-driven blending approach, where the cross-angle is optimized in real-time to balance the visibility of the real scene and the texture and lighting of the virtual object. A benchtop prototype is built. A user study with 12 participants is conducted to quantify the visibility threshold of the texture and lighting of virtual objects. Then, a user study with 12 participants proves that the proposed method improves the visibility of the real scene while keeping a good appearance of the virtual object. We believe the proposed method is an important step toward developing practical solutions for OC-OSTHMDs.",
+				keyFeatures: [
+					"We propose the mask balancing method to improve real-scene visibility in OC-OSTHMDs. The method surpasses the see-through transparency of typical OC-OSTHMDs by blending the masked vision with the passed vision in a perception-driven approach.",
+					"We evaluate human perception of virtual texture and lighting in OC-OSTHMDs. Texture experiments revealed significant frequency-dependent differences, while lighting experiments indicated frequency-related trends consistent with expectations.",
+					"We built a benchtop prototype to validate the mask balancing method in OC-OSTHMDs. The prototype keeps the original optical structure of OC-OSTHMDs while integrating with a rotation mount, benefiting the proposed method with excellent versatility."
+				],
+				images: [
+					{ src: "/images/projects/mask-balancing1.jpeg", alt: "Mask Balancing system and results", caption: "Mask Balancing method and benchtop prototype for improving real-scene visibility in occlusion-capable optical see-through HMDs." }
+				]
+			}
+		},
+
 		links: {
+			project: "/projects/mask-balancing",
+			ieee: "https://ieeexplore.ieee.org/document/11478020",
 			preprint: "/papers/Zhang_IEEE_VR_2026_TVCG_MaskBalancing.pdf"
 		},
+
+		// BibTeX - 自动生成，支持自定义参数
+		get bibtex() { return generateBibtex(this, this.bibtexCustom || {}); }
 	},
 
 	{
